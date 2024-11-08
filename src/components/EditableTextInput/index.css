@@ -1,0 +1,43 @@
+.app-container {
+  background-color: #f5d0fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: roboto;
+}
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+.heading {
+  font-size: 27px;
+  text-align: center;
+  color: #000000;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  color: #323f4b;
+  font-size: 18px;
+}
+.button {
+  margin-left: 20px;
+  background-color: #d946ef;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
